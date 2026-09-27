@@ -1,0 +1,42 @@
+{
+  "version": 9,
+  "issued_at": "2026-09-27T21:39:15Z",
+  "expires_at": "2026-12-26T21:39:15Z",
+  "min_app_version": "1.0.0",
+  "mirrors": [
+    "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin/main/assets/sources/sources.signed.json",
+    "https://belderchin.pages.dev/sources.signed.json",
+    "https://github.com/kafinetnabovat-spec/belderchin-releases/releases/download/main/sources.signed.json"
+  ],
+  "health_check": {
+    "urls": [
+      "http://cp.cloudflare.com/generate_204",
+      "http://connectivitycheck.gstatic.com/generate_204"
+    ],
+    "min_success": 1,
+    "timeout_ms": 6000
+  },
+  "warp": {
+    "enabled": false,
+    "endpoints": [],
+    "ports": []
+  },
+  "workers": [
+    {
+      "id": "zeus-belderchin-shared",
+      "name": "Zeus - Shared 10GB (Fallback)",
+      "url": "https://5kzcn2e4uuos.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/sub/belderchin",
+      "weight": 1
+    }
+  ],
+  "backup": [],
+  "notes": "v9: min_app_version 1.0.0 - fix بعدا تلاش کنید + has_update_button + direct download via mahdinikzad.ir/download.php?x=arm64 (WAF bypass)",
+  "belderchin_auto": {
+    "register_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/register",
+    "renew_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/renew",
+    "status_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/status",
+    "zeus_host": "5kzcn2e4uuos.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev",
+    "default_gb": 10,
+    "expiry_days": 0
+  }
+}
