@@ -1,12 +1,15 @@
 {
-  "version": 9,
-  "issued_at": "2026-09-27T21:39:15Z",
-  "expires_at": "2026-12-26T21:39:15Z",
+  "version": 10,
+  "issued_at": "2026-09-27T21:45:45Z",
+  "expires_at": "2026-12-26T21:45:45Z",
   "min_app_version": "1.0.0",
   "mirrors": [
+    "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin-releases/main/sources.signed.json",
+    "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin-releases/main/sources.json",
+    "https://mahdinikzad.ir/sources.signed.json",
+    "https://mahdinikzad.ir/sources.json",
     "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin/main/assets/sources/sources.signed.json",
-    "https://belderchin.pages.dev/sources.signed.json",
-    "https://github.com/kafinetnabovat-spec/belderchin-releases/releases/download/main/sources.signed.json"
+    "https://belderchin.pages.dev/sources.signed.json"
   ],
   "health_check": {
     "urls": [
