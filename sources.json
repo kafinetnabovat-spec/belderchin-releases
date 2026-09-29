@@ -1,7 +1,7 @@
 {
   "version": 10,
-  "issued_at": "2026-09-27T21:45:45Z",
-  "expires_at": "2026-12-26T21:45:45Z",
+  "issued_at": "2026-09-29T10:45:42Z",
+  "expires_at": "2026-12-28T10:45:42Z",
   "min_app_version": "1.0.0",
   "mirrors": [
     "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin-releases/main/sources.signed.json",
@@ -31,6 +31,7 @@
     }
   ],
   "backup": [],
+  "notes": "v9: min_app_version 1.0.0 - fix بعدا تلاش کنید + has_update_button + direct download via mahdinikzad.ir/download.php?x=arm64 (WAF bypass)",
   "belderchin_auto": {
     "register_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/register",
     "renew_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/renew",
