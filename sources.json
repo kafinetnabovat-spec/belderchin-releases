@@ -6,8 +6,6 @@
   "mirrors": [
     "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin-releases/main/sources.signed.json",
     "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin-releases/main/sources.json",
-    "https://mahdinikzad.ir/sources.signed.json",
-    "https://mahdinikzad.ir/sources.json",
     "https://raw.githubusercontent.com/kafinetnabovat-spec/belderchin/main/assets/sources/sources.signed.json",
     "https://belderchin.pages.dev/sources.signed.json"
   ],
@@ -33,7 +31,6 @@
     }
   ],
   "backup": [],
-  "notes": "v9: min_app_version 1.0.0 - fix بعدا تلاش کنید + has_update_button + direct download via mahdinikzad.ir/download.php?x=arm64 (WAF bypass)",
   "belderchin_auto": {
     "register_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/register",
     "renew_url": "https://belderchin-auto.44ybmvi8nitmrtvgl5-c-zcunfbav.workers.dev/api/belderchin/renew",
